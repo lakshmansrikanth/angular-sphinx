@@ -2,7 +2,7 @@ Simple code to search using AngularJs & Sphinx PHP API - SphinxSearch Framework.
 
 Requirements : PHP, Apache, MySQL, SphinxSearch installed and configured on linux.
 
-index.html - Importing angularjs files. Angularjs to look for SearchCtrl as Controller and keywords as input (ng-model) and execute search function on click.
+index.html - Importing angularjs files. Angularjs to look for SearchCtrl as Controller and keywords as input (ng-model) and execute search function on click. Displays matched ids returned from sphinx.
 
 search.js - php file url to send keywords as json and get data to display inside pre.
 
