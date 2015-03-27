@@ -1,6 +1,8 @@
 Search Using AngularJs & Sphinx PHP API - using SphinxSearch Framework.
 
-index.html - Importing angularjs files. Telling angularjs to look for SearchCtrl as Controller and keywords as input (ng-model) and execute search function on click.
+Simple Code
+
+index.html - Importing angularjs files. Angularjs to look for SearchCtrl as Controller and keywords as input (ng-model) and execute search function on click.
 
 search.js - php file url to send keywords as json and get data to display inside pre.
 
