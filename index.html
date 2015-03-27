@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<title>Search form with AngualrJS &amp; Sphinxsearch</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css" />
+	<script src="https://code.angularjs.org/angular-1.0.0.min.js"></script>
+	<script src="search.js"></script>
+</head>
+
+<body>
+
+	<div ng-controller="SearchCtrl">
+	<form class="well form-search">
+		<label>Search:</label>
+		<input type="text" ng-model="keywords" class="input-medium search-query" placeholder="Keywords...">
+		<button type="submit" class="btn" ng-click="search()">Search</button>
+		<p class="help-block">Search here</p>
+    </form>
+<pre ng-model="result">
+{{result}}
+</pre>
+   </div>
+</body>
+
+</html> 
